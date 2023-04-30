@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; /* increase the maximum width */
+    height: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(36, 145, 184, 0.995);
+    background-color: #008CBA;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #008CBA;
+  }
+  
+  .converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(137, 136, 136);
+    padding: 20px;
+    height: 500px;
+  }
+  
+  .converter input[type="number"] {
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .converter select {
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 16px;
+  }
+  
+  .converter span {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .converter button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .converter button:hover {
+    background-color: #00688B;
+  }
+  
